@@ -1,0 +1,95 @@
+@keyframes navOpen {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+@keyframes navClose {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0);
+  }
+}
+@keyframes preloader {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes comesAvatar {
+  from {
+    bottom: -50%;
+    right: -100%;
+  }
+  to {
+    bottom: -10%;
+    right: -55%;
+  }
+}
+@keyframes comesCodebox {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes comesBlur {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes comesContent {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 10px;
+  }
+}
+@keyframes comesLinks {
+  from {
+    bottom: -100%;
+    transform: rotate(-100deg);
+  }
+  to {
+    bottom: 10px;
+    transform: rotate(0deg);
+  }
+}
+@keyframes tooltipNavigator {
+  0% {
+    left: 5px;
+  }
+  50% {
+    left: 40px;
+  }
+  100% {
+    left: 80px;
+  }
+}
+@keyframes tooltipContent {
+  0% {
+    content: "Checkout me in Linkedin.";
+  }
+  50% {
+    content: "Checkout me in Github.";
+  }
+  100% {
+    content: "Checkout me in Twitter.";
+    transform: translateX();
+  }
+}
